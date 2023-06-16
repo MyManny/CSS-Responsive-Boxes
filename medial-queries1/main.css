@@ -24,13 +24,16 @@ body {
         }
 @media (min-width: 600px), screen and (orientation: portrait) {
   .container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-block-color:black;
-    table-layout:;
+    display:flex;
+    flex-direction: column;
   }
   .a{
     min-width: 100%;
     min-height: 100%;
+  }
+}
+@media (max-width:1400px){
+  .container{
+    
   }
 }
