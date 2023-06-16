@@ -1,3 +1,88 @@
 body {
   background: peachpuff;
 }
+@media (min-width: 600px), screen and (orientation: portrait){
+  .container{
+    display:100%;
+    border: solid 2px black; 
+  }
+  /* div{
+  border:2px solid black;
+  } */
+.a{
+  position:relative;
+  border:5px solid black;
+  padding:40px;
+  height:200px;
+}
+.b{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:20%;
+  height:100px;
+  top:10px;
+  margin:10px;
+}
+.c{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:23%;
+  height:100px;
+  top:-190px;
+  right:-325px;
+}
+.d{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:20%;
+  height:100px;
+  top:-379px;
+  right:-666px;
+}
+.e{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:20%;
+  height:100px;
+  top:-360px;
+  margin:10px;
+}
+.f{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:23%;
+  height:100px;
+  right:-325px;
+  top:-560px;
+}
+.g{
+  position:relative;
+  border: 5px solid black;
+  padding:40px;
+  width:20%;
+  height:100px;
+  top:-750px;
+  right:-666px;
+}
+.h{
+  position:relative;
+  border:5px solid black;
+  margin:10px;
+  top:-750px;
+  height:500px;
+  padding:30px;
+
+
+}
+}
+@media (min-width:1400px){
+  .container{
+    height:500px;
+    border: solid 2px black; 
+  }
+}
