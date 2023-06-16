@@ -2,7 +2,7 @@ body {
   background: papayawhip;
 }
 @media (min-width: 600px), screen and (orientation: portrait){
-  
+
 }
 
 
@@ -24,6 +24,7 @@ body {
     position:relative;
     border:10px solid red;
     padding:50px;
+    margin:10px;
   }
 
 .b{
