@@ -2,10 +2,7 @@ body {
   background: peachpuff;
 }
 @media (min-width: 600px), screen and (orientation: portrait){
-  .container{
-    display:100%;
-    border: solid 2px black; 
-  }
+  
   /* div{
   border:2px solid black;
   } */
@@ -81,9 +78,10 @@ body {
 
 }
 }
-@media (min-width:1400px){
-  .container{
-    height:500px;
-    border: solid 2px black; 
+@media (max-width:1400px){
+  .b{
+    position:relative;
+
+
   }
 }

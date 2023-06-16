@@ -1,6 +1,5 @@
-{
-  border: 1px solid teal;
-}    
+
+    
 body {
   background: blanchedalmond;
   margin: 0;
@@ -11,7 +10,7 @@ body {
 
       }
 .container {
-  display-box: flex;
+  display: flex;
         min-height: 50vh;
         
        
@@ -21,7 +20,12 @@ body {
         border:solid 1px black;
           
         }
-@media (min-width: 600px), screen and (orientation: portrait){
+        @media (min-width: 600px), screen and (orientation: portrait){
+          
+        }
+
+
+        @media (min-width: 1400px), screen and (orientation: portrait){
  
   .container {
     display:flex;
@@ -78,7 +82,4 @@ body {
   top:-90px;
 
 }
-}
-@media (min-width:1400px){
-  
 }
